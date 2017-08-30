@@ -1,11 +1,11 @@
 # API Challenge
 
-This API challenge to evaluate some prospective tools for API exploration and automation. This project was my attempt at evaluating the latest Frisby 2 alpha.
+This API challenge was to evaluate some prospective tools for API exploration and automation. This project was my attempt at evaluating [IcedFrisby](https://github.com/MarkHerhold/IcedFrisby)
 
 To run this, you'll need the following commands:
 * `npm install`
-* `npm install -g jasmine-node`
-* `jasmine-node .`
+* `npm install -g mocha`
+* `mocha specs/**/*_spec.js .`
 
 I've also committed the VS Code bindings so that you can F5 on any individual spec.
 
